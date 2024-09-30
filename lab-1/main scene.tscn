@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://q8lgnhj4h016"]
+
+[ext_resource type="Texture2D" uid="uid://egjtp67cuxmq" path="res://Assets/cat.png" id="1_53w37"]
+[ext_resource type="Texture2D" uid="uid://bv6tbi28glh3b" path="res://Assets/icon.svg" id="1_85sym"]
+[ext_resource type="PackedScene" uid="uid://dkv8q6gu76ifv" path="res://beach.tscn" id="3_uv1ax"]
+
+[node name="Cat" type="Sprite2D"]
+position = Vector2(221, 200)
+scale = Vector2(0.499084, 0.499084)
+texture = ExtResource("1_53w37")
+
+[node name="Robot" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 0.607843, 1)
+position = Vector2(80.1468, 34.0624)
+texture = ExtResource("1_85sym")
+
+[node name="Robot2" type="Sprite2D" parent="Robot"]
+position = Vector2(-136.25, 122.224)
+scale = Vector2(1, 1)
+texture = ExtResource("1_85sym")
+
+[node name="Beach" parent="." instance=ExtResource("3_uv1ax")]
+position = Vector2(-410.752, 502.921)
+
+[node name="Beach2" parent="." instance=ExtResource("3_uv1ax")]
+position = Vector2(182.334, 502.921)
+
+[node name="Beach3" parent="." instance=ExtResource("3_uv1ax")]
+position = Vector2(927.699, 502.921)
