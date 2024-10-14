@@ -1,7 +1,6 @@
 extends Sprite2D
 
-@export var speed = 1
-
+@export var speed = 5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -10,6 +9,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	position.x += speed
-	scale.x += speed
+	pass
+	
+	#position.x += speed
+	#scale.x += speed
 	

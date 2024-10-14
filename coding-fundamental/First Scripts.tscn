@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://f6exs248pau5"]
 
-[ext_resource type="PackedScene" uid="uid://c426ul1otnebg" path="res://player.tscn" id="1_qcfdt"]
-[ext_resource type="PackedScene" uid="uid://c5lycla3e1prg" path="res://enemy.tscn" id="3_knuqd"]
-[ext_resource type="PackedScene" uid="uid://djcjrtsufkva1" path="res://enemy_2.tscn" id="4_cui4s"]
-[ext_resource type="Script" path="res://enemy_2.gd" id="5_0vrpr"]
+[ext_resource type="PackedScene" uid="uid://c426ul1otnebg" path="res://player/player.tscn" id="1_qcfdt"]
+[ext_resource type="PackedScene" uid="uid://c5lycla3e1prg" path="res://enemy/enemy.tscn" id="3_knuqd"]
+[ext_resource type="PackedScene" uid="uid://djcjrtsufkva1" path="res://enemy/enemy_2.tscn" id="4_cui4s"]
+[ext_resource type="Script" path="res://enemy/enemy_2.gd" id="5_0vrpr"]
 
 [node name="Node2D" type="Node2D"]
 

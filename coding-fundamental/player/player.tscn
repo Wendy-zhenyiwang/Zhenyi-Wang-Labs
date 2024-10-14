@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c426ul1otnebg"]
 
 [ext_resource type="Texture2D" uid="uid://btsiwdbwoykqe" path="res://icon.svg" id="1_4vmld"]
-[ext_resource type="Script" path="res://player.gd" id="2_acxk6"]
+[ext_resource type="Script" path="res://player/player.gd" id="2_acxk6"]
 
 [node name="Player" type="Sprite2D"]
 position = Vector2(317, 172)

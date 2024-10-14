@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c5lycla3e1prg"]
 
 [ext_resource type="Texture2D" uid="uid://btsiwdbwoykqe" path="res://icon.svg" id="1_ctrjs"]
-[ext_resource type="Script" path="res://enemy.gd" id="2_pfsk8"]
+[ext_resource type="Script" path="res://enemy/enemy.gd" id="2_pfsk8"]
 
 [node name="enemy" type="Sprite2D"]
 modulate = Color(0.824077, 0.483438, 0.296781, 1)
