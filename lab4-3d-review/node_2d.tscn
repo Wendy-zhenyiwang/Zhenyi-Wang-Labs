@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://rtdhucvjxmuh"]
+
+[ext_resource type="Texture2D" uid="uid://b7n78sxwwysf0" path="res://icon.svg" id="1_7gdgh"]
+[ext_resource type="Script" path="res://mousedemo.gd" id="2_2bqr0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(252, 221)
+texture = ExtResource("1_7gdgh")
+script = ExtResource("2_2bqr0")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(622, 239)
+texture = ExtResource("1_7gdgh")
+script = ExtResource("2_2bqr0")
